@@ -39,22 +39,22 @@ public class WebGLCamera : Listener {
                 break;
 
             case BubbleSortState.BeginnerBubbleSortTask03: //5 containers = 30 FOV
-                coroutine = CameraTransition(mainCamera, mainCamera.fieldOfView, 30f);
-                StartCoroutine(coroutine);
-                break;
-
-            case BubbleSortState.BeginnerBubbleSortTask04: //6 containers = 35 FOV
                 coroutine = CameraTransition(mainCamera, mainCamera.fieldOfView, 35f);
                 StartCoroutine(coroutine);
                 break;
 
+            case BubbleSortState.BeginnerBubbleSortTask04: //6 containers = 35 FOV
+                coroutine = CameraTransition(mainCamera, mainCamera.fieldOfView, 45f);
+                StartCoroutine(coroutine);
+                break;
+
             case BubbleSortState.BeginnerBubbleSortTask05: //7 containers = 40 FOV
-                coroutine = CameraTransition(mainCamera, mainCamera.fieldOfView, 40f);
+                coroutine = CameraTransition(mainCamera, mainCamera.fieldOfView, 55f);
                 StartCoroutine(coroutine);
                 break;
 
             case BubbleSortState.BeginnerBubbleSortTask06: //8 containers = 45 FOV
-                coroutine = CameraTransition(mainCamera, mainCamera.fieldOfView, 45f);
+                coroutine = CameraTransition(mainCamera, mainCamera.fieldOfView, 65f);
                 StartCoroutine(coroutine);
                 break;
         }
