@@ -508,6 +508,7 @@ MonoBehaviour:
       interacting with 3D objects!'
     - 'Overview
 
+
       Title: Bubble Sort in 3D
 
       Platform: WebGL build
@@ -521,16 +522,128 @@ MonoBehaviour:
       6-12
 
 '
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - 'Proposed Edtech Solution
+
+
+      Students may find it difficult to relate
+      to the course material when learning about abstract concepts such as sorting
+      algorithms in computer science. To provide a connection between students and
+      introductory computer science topics, I propose to develop an interactive simulation
+      where students move through a 3D representation of a list and watch how their
+      actions affect the order of the list visually as they learn a new sorting algorithm
+      called bubble sort.
+
+'
+    - "Competing Software Review\r\n\r\nGidget - Gidget is a game designed to teach
+      computer programming concepts through debugging puzzles. Gidget the robot was
+      damaged on its way to clean up a chemical split and save the animals, so it
+      is the players\u2019 job to fix Gidget\u2019s problematic code to complete
+      all the missions. As the levels become more challenging, players can combine
+      newly introduced concepts with previously used commands to succeed solving
+      the puzzles and progress through the game.\r\n\r\nScratch - With Scratch, you
+      can program your own interactive stories, games, animations, and share your
+      creations with others in the online community. Scratch helps young people learn
+      to think creatively, reason systematically, and work collaboratively, which
+      are essential skills for life in the 21st century.\r\n\r\nThe Pack - PC game,
+      designed to teach computational thinking and environmental awareness. It is
+      an open-world game where users create algorithms to restore a barren wasteland
+      to a thriving ecosystem."
+    - 'Competing Software Suggested Improvements
+
+      
+
+      Gameplay and immersion
+      - AR/VR interactives that allow the user to feel that he/she can experience
+      wildlife on a more personal level.
+
+      
+
+      Engagement factors - More
+      interactive ways to engage with the data, other participating users, and wildlife.
+
+      
+
+      Better
+      accessibility- Users can implement the application from multiple devices, rather
+      than at a desktop computer. Users should be able to use the application wherever
+      they are so that they can get the most use out of the information offered within
+      the application. The gameplay should also have portability so that users can
+      remain engaged in their simulations whether or not they are in front of their
+      computers. '
+    - 'Stakeholders & Users
+
+
+      Teachers
+
+      Parents
+
+      Students -
+      6 to 12th grade middle school students
+
+'
+    - "Persona\r\n\r\nName: Connor\r\nAge: 13 years old\r\nGender: Male\r\nLocation:
+      Suburbia USA\r\n\r\nPersonal Notes:\r\nPlays Sports\r\nEnjoys being outside
+      and being active\r\n\r\nStudent Notes:\r\nStruggles with relating to the material
+      in his science classes\r\nDoesn\u2019t learn well from lecture and memorization\r\nPrefers
+      a visual/kinesthetic way of learning\r\nRetains information best when presented
+      as a hands-on or visual concept"
+    - 'Justification of Persona decisions
+
+
+      After meeting with stakeholders
+      and gathering information during the initial research phase, we settled on
+      a persona named Connor. He represents the users of this educational application;
+      a middle school student who needs more creative ways to learn concepts that
+      are not familiar to him. I chose this persona because middle and high school
+      is when students begin to learn complex concepts of math and sciences.
+
+'
+    - "Problem Scenario\r\n\r\nConnor is overwhelmed with his 8th grade computer
+      science class. Connor has always been very active and social. He learns best
+      by doing a task, rather than listening to directions. During the school year,
+      the ability to actively participate in class lessons has been limited since
+      the curriculum has become more abstract and complicated than he is used to.
+      He is assigned some word and math problems through his lab computer, but cannot
+      concentrate so he decides to slip out of class and play with another group
+      of students during their recess at school. \r\n\r\nAfter a while, the teacher
+      notices he is not at his computer. The teacher sees him through the window
+      playing outside of his recess time. Connor gets sent to detention with extra
+      homework to do on the computer. He is still not able to concentrate on the
+      static images and text to read on the computer screen teaching introductory
+      topics about computer science. He ends up getting frustrated and does not consider
+      a future career in computer science. "
+    - "Activity Scenario\r\n\nThe next day, Connor\u2019s computer science teacher
+      tells the class that they will be starting to learn the first set of algorithms
+      that a computer scientist learns, sorting algorithms. As he begins to feel
+      overwhelmed, the teacher tells them that they are going to be using the new
+      module via an interactive simulation. She shares a link to a website and instructs
+      the class to begin filling out their profiles. Connor clicks on the link and
+      after going through the intro, realizes that this module of his computer science
+      class will be different from the others. He is relieved that he will be learning
+      about the subject matter in an interactive way, similar to the games he plays
+      at home.\r\n"
+    - "Activity Scenario (Cont.)\n\nAfter Connor has been playing the simulation
+      for about a week, he learns that sorting algorithms are very similar to things
+      he does in real life. The simulation helped ground the abstract topic in physical
+      reality and helped the student understand the material through interaction
+      3D visualizations that recreate aspects of real life in space and time. Connor
+      is able to relate to the material in this module as he constructs a simulation
+      of his environment and watches as each choice he makes changes something in
+      the list and moves the list from chaos to order. He learns that the more sorted
+      a list becomes, the easier it is to find a particular element or to understand
+      the nature of the data in the list. He becomes interested in learning more
+      about computer science and how it can help people make better sense of the
+      world around them. \r\n"
+    - "Problem Statement\r\n\nConnor is frustrated with the abstract nature of math
+      and sciences. He is an active person and prefers to learn with visual and physical
+      aids. He needs a way to relate to the material in his computer science class,
+      where they are learning about math, logic, algorithms, and software engineering.
+      To understand the importance of computer science to today\u2019s knowledge-based
+      society, to educate himself about the academic and industrial applications
+      of programming that computer science can open up for him. He learns the importance
+      of computer science as he organizes lists that are represented as 3D visualizations
+      to help ground the abstract principles in real-life activities unfold according
+      to his own input and actions.\r\n"
     textArea: {fileID: 494967566}
     introImage: {fileID: 1023813989}
     backButton: {fileID: 813343564}
@@ -771,8 +884,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7, y: 6.1}
-  m_SizeDelta: {x: 882.5459, y: 527.7822}
+  m_AnchoredPosition: {x: 7, y: 32.496}
+  m_SizeDelta: {x: 882.5459, y: 474.9911}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &694050642
 GameObject:
