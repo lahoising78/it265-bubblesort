@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainScreen.unity
+    guid: 37de915d28d3c6d4b9215c6dfd831a5b
+  - enabled: 1
+    path: Assets/Scenes/002Level_BubbleSort_LowFidelity_WebGLBuild.unity
+    guid: 9bf072e5917a7f943bdee6e1e3b77026
   m_configObjects: {}
